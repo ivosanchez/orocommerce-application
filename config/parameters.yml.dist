@@ -2,7 +2,7 @@ parameters:
     database_driver:        pdo_mysql
     database_host:          127.0.0.1
     database_port:          ~
-    database_name:          b2b_crm_dev
+    database_name:          oro
     database_user:          root
     database_password:      ~
     database_driver_options: []
@@ -31,7 +31,7 @@ parameters:
 
     session_handler:        session.handler.native_file
 
-    secret:                 ThisTokenIsNotSoSecretChangeIt
+    secret:                 iFUstayeD4teA
     installed:              ~
     assets_version:         ~
     assets_version_strategy: time_hash # A strategy should be used to generate the global assets version, can be:

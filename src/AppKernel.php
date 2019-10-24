@@ -18,6 +18,7 @@ class AppKernel extends OroKernel
         );
 
         if ('dev' === $this->getEnvironment()) {
+            
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Symfony\Bundle\WebServerBundle\WebServerBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
